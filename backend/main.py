@@ -8,6 +8,7 @@ from fastapi.responses import JSONResponse
 from contextlib import asynccontextmanager
 
 from config import settings, validate_settings
+from routes.chat import router as chat_router
 
 # Setup logging
 logging.basicConfig(
@@ -99,11 +100,8 @@ async def root():
     }
 
 
-# Placeholder route handlers (will be implemented in subsequent phases)
-@app.post("/chat", tags=["Chatbot"])
-async def chat_query(query: str, selected_text: str = None, chapter: str = None):
-    """RAG chatbot query endpoint (Phase 4)"""
-    return {"message": "Chat endpoint - Phase 4 implementation"}
+# Mount chat router (Phase 4 implementation)
+app.include_router(chat_router)
 
 
 @app.post("/translate", tags=["Translation"])

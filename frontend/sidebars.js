@@ -16,8 +16,20 @@
 const sidebars = {
   tutorialSidebar: [
     'intro',
-    // Placeholder for full curriculum structure - will be populated in Phase 3
-    // Modules 1-4 with 12 lessons total will be added during Phase 3 (content creation)
+    {
+      type: 'category',
+      label: 'Module 1: Embodied AI Fundamentals',
+      collapsed: false,
+      items: [
+        'introduction/week-1-embodied-ai',
+        'introduction/week-2-robot-anatomy',
+        'introduction/week-3-control-systems',
+      ],
+    },
+    // Placeholder for Modules 2-4 - will be added as content is created
+    // Module 2: Perception & Computer Vision (weeks 4-6)
+    // Module 3: Motion Planning & Navigation (weeks 7-9)
+    // Module 4: Integration & Advanced Topics (weeks 10-12)
   ],
 };
 

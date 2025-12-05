@@ -26,8 +26,17 @@ const sidebars = {
         'introduction/week-3-control-systems',
       ],
     },
-    // Placeholder for Modules 2-4 - will be added as content is created
-    // Module 2: Perception & Computer Vision (weeks 4-6)
+    {
+      type: 'category',
+      label: 'Module 2: Perception & Computer Vision',
+      collapsed: false,
+      items: [
+        'perception/week-4-computer-vision',
+        'perception/week-5-3d-perception',
+        'perception/week-6-slam',
+      ],
+    },
+    // Placeholder for Modules 3-4 - will be added as content is created
     // Module 3: Motion Planning & Navigation (weeks 7-9)
     // Module 4: Integration & Advanced Topics (weeks 10-12)
   ],

@@ -1,55 +1,52 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Physical AI & Humanoid Robotics AI-Native Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Embodied Intelligence First
+The textbook bridges digital AI with physical robots through hands-on learning. All content must include practical robotics applications, hardware considerations, and real-world demonstrations. Theoretical concepts are paired with embodied implementations. No purely abstract material without physical AI context.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Comprehensive Curriculum Coverage
+Content must encompass all course modules, weekly breakdowns, learning outcomes, assessments, and hardware requirements as detailed in the hackathon specification. Each chapter maps to specific learning objectives with measurable outcomes. No gaps in required topics; all modules fully developed.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. AI-Native Interactive Design
+The textbook leverages AI throughout: interactive Docusaurus components, RAG-powered chatbot for Q&A, personalization buttons, multi-language support (Urdu), and integrated agent-based learning tools. Static content is prohibited; all sections include interactive or AI-enhanced elements to support modern learning.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Original Content & No Plagiarism
+All explanations, examples, and course materials are generated originally for this project. Content must be accurate, educationally sound, and properly attributed. AI generation is used as a tool but human expertise validates accuracy and pedagogical value.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Full-Stack Bonus Architecture
+Implementation targets base 100 points plus all bonuses: Docusaurus deployment to GitHub Pages, reusable subagents/agent skills, Better-Auth signup/signin with background questions, per-chapter personalization, and per-chapter Urdu translation. Each bonus feature is fully implemented and integrated.
 
-### [PRINCIPLE_6_NAME]
+### VI. RAG Chatbot & Knowledge Search
+A FastAPI-backed RAG chatbot powered by OpenAI Agents/ChatKit uses Neon PostgreSQL and Qdrant for semantic search. Chatbot supports content-based Q&A and selected text queries, enabling learners to ask questions about specific chapters and concepts in real time.
 
+## Technical Architecture Requirements
 
-[PRINCIPLE__DESCRIPTION]
+- **Frontend**: Docusaurus with interactive components, deployable to GitHub Pages
+- **Backend**: FastAPI with OpenAI Agents/ChatKit integration
+- **Database**: Neon PostgreSQL for structured data; Qdrant for vector embeddings
+- **Authentication**: Better-Auth with background profile questions
+- **Content Encoding**: Vector embeddings for semantic search; markdown source of truth
+- **Internationalization**: Per-chapter Urdu translation support built-in
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Content Standards
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Educational accuracy: All technical claims validated against current best practices
+- Accessibility: Content suitable for learners with varying robotics backgrounds
+- Modularity: Each chapter is independently understandable but interconnected
+- Assessments: Every module includes formative and summative assessments
+- Hardware Mapping: Clear hardware requirements and alternative options documented
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Spec-Driven Development: Every feature specified before implementation
+- Iterative Delivery: MVP (base 100 points) completed before bonus features
+- Testing: All interactive components tested; RAG queries validated for accuracy
+- Code Review: All contributions reviewed for alignment with constitution
+- Documentation: Every feature includes user-facing docs and architecture notes
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All development must conform to these principles. The constitution supersedes contradictory practices. Amendments require documentation and approval before implementation. Complexity decisions (e.g., technology choices) must reference this constitution's rationale.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06

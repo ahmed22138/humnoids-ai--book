@@ -356,11 +356,11 @@ export default function Home() {
         </div>
 
         <div className="cta-container">
-          <a className="btn btn-primary" href="/ai-textbook/docs/intro">
+          <a className="btn btn-primary" href="/docs/intro">
             📖 Start Learning Now
           </a>
 
-          <a className="btn btn-secondary" href="/ai-textbook/docs/introduction/week-1-embodied-ai">
+          <a className="btn btn-secondary" href="/docs/introduction/week-1-embodied-ai">
             ▶ Week 1: Embodied AI
           </a>
         </div>

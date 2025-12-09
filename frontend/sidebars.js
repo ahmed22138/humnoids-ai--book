@@ -41,9 +41,9 @@ const sidebars = {
       label: 'Module 3: Motion Planning & Navigation',
       collapsed: false,
       items: [
-        '/week-7-path-planning',
-        '/week-8-trajectory-planning',
-        '/week-9-mobile-navigation',
+        'control/week-7-path-planning',
+        'control/week-8-trajectory-planning',
+        'control/week-9-mobile-navigation',
       ],
     },
     {
